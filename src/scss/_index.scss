@@ -181,28 +181,3 @@ code {
 #mail_h:hover{
   color:green;
 }
-
-.rcw-widget-container{
-  flex-wrap:wrap;
-  justify-content:flex-end;
-  align-content:flex-end;
-}
-
-@media screen and (max-width:800px){
-  .rcw-messages-container{
-    height:50vh !important;
-    max-height:60vh !important;
-    overflow-y:scroll !important;
-  }
-  .rcw-close-button{
-    background-color:black!important;
-  }
-}
-
-.rcw-launcher{
-  background-color:black !important;
-}
-
-.quick-button{
-  border:2px solid black !important;
-}
