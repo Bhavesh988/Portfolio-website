@@ -4,7 +4,7 @@ import {
   addResponseMessage,
   addLinkSnippet,
   setQuickButtons
-} from "react-chat-widget";
+} from "../../External_Package/react-chat-widget";
 
 import "react-chat-widget/lib/styles.css";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import TagCloud from 'react3dtagcloud';
+import TagCloud from '../../External_Package/react3dtagcloud';
 
 
 const AboutMe = () => {
