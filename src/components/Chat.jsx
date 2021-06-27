@@ -4,9 +4,9 @@ import {
   addResponseMessage,
   addLinkSnippet,
   setQuickButtons
-} from "../External_Package/react-chat-widget";
+} from "react-chat-widget";
 
-import "../External_Package/react-chat-widget/lib/styles.css";
+import "react-chat-widget/lib/styles.css";
 
 function Chat() {
   useEffect(() => {
