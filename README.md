@@ -1,3 +1,14 @@
+# Website Link
+[https://bhaveshchoudhari.netlify.app](https://bhaveshchoudhari.netlify.app)
+
+Webiste is hosted by [Netlify](https://www.netlify.com)!
+
+<a href="https://www.netlify.com">
+  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"/>
+</a>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
