@@ -6,7 +6,7 @@ import {
   setQuickButtons
 } from "../External_Package/react-chat-widget";
 
-import "react-chat-widget/lib/styles.css";
+import "../External_Package/react-chat-widget/lib/styles.css";
 
 function Chat() {
   useEffect(() => {
