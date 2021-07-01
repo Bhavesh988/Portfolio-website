@@ -1,10 +1,10 @@
 # Website Link
-[https://bhaveshchoudhari.netlify.app](https://bhaveshchoudhari.netlify.app)
+[https://bhaveshchoudhari.vercel.app](https://bhaveshchoudhari.vercel.app)
 
-Webiste is hosted by [Netlify](https://www.netlify.com)!
+Webiste is hosted by [Vercel](https://www.vercel.com)!
 
-<a href="https://www.netlify.com">
-  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"/>
+<a href="https://www.vercel.com">
+  <img width="150" height="100" src="https://logovtor.com/wp-content/uploads/2020/10/vercel-inc-logo-vector.png"/>
 </a>
 
 
