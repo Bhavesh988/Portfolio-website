@@ -32,7 +32,7 @@ function Skills() {
   );
   return (
     <Jumbotron ref={skillsTabRef} fluid className="bg-black m-0" id="skills">
-      <h2 ref={skillsTabRef} className="headin-2">Skills</h2>
+      <h2 ref={skillsTabRef} className="headin-2-ed">Skills</h2>
       <Container className="p-5 ">
         <Tabs
           className="skills-tabs"

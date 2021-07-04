@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useState,useEffect} from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import MainBody from "./components/MainBody";
 import AboutMe from "./components/AboutMe";
@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact.jsx";
 import Education from "./components/Education.jsx";
 import Chat from "./components/Chat.jsx";
+import Loader from "./components/Loader.jsx";
 const Home = React.forwardRef((props, ref) => {
   // console.log(ref)
   // console.log(props)
@@ -29,6 +30,16 @@ const Home = React.forwardRef((props, ref) => {
 
 const App = () => {
   const titleRef = React.useRef();
+  const [loading, setLoading] = useState(true);
+	useEffect(() => {
+    if (loading) {
+      setTimeout(() => {
+        setLoading(false);
+      }, 5000);
+    }
+  }, [loading]);
+
+  if (loading) return <Loader />;
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
       <Navbar ref={titleRef}/>

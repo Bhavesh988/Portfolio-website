@@ -84,13 +84,13 @@ function Chat() {
       });
       return resume_response;
     } else if (search(msg, contact_list) === true) {
-      if (msg.includes("mail") || msg.includes("email")) {
+      if (msg.includes("mail") || msg.includes("email")|| msg.includes("gmail")) {
         addLinkSnippet({
           title:"Mail",
           link:"mailto:bhaveshparihyar988@gmail.com",
           target:"_blank"
         });
-        return "hi, Above is the Mail";
+        return "Hi, Above is the Mail";
       }
       if (msg.includes("instagram")) {
         addLinkSnippet({
@@ -98,7 +98,7 @@ function Chat() {
           link:"https://www.instagram.com/choudhari_b",
           target:"_blank"
         });
-        return "hi, Above is the Instagram Link";
+        return "Hi, Above is the Instagram Link";
       }
       if (msg.includes("github")) {
         addLinkSnippet({
@@ -106,7 +106,7 @@ function Chat() {
           link:"https://www.github.com/Bhavesh988",
           target:"_blank"
         });
-        return "hi, Above is the Github Link";
+        return "Hi, Above is the Github Link";
       }
       if (msg.includes("linkedin")) {
         addLinkSnippet({
@@ -114,7 +114,7 @@ function Chat() {
           link:"https://www.linkedin/in/bhavesh-choudhari-baa15b171",
           target:"_blank"
         });
-        return "hi, Above is the LinkedIn Link";
+        return "Hi, Above is the LinkedIn Link";
       }
       if (msg.includes("contact") || msg.includes("contacts")){
         return contact_response;

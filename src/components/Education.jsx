@@ -2,7 +2,7 @@ import React from 'react';
 const Education=()=>{
     return(
         <section id="education"  >
-        <h2 className="headin-2">Education</h2>
+        <h2 className="headin-2-ed">Education</h2>
         <div className="container1">
         <div className="timeline">
             <div className="timeline-container primary">

@@ -39,7 +39,7 @@ const Navigation = React.forwardRef((props, ref) => {
       <Navbar.Brand className={` fixed  ${
         !isTop ? "brand-white" : "brand-black"
       }`} href={process.env.PUBLIC_URL + "/#home"}>
-        {`<Bhavesh/>`}
+        {` <Bhavesh/>`}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
