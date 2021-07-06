@@ -22,7 +22,7 @@
     &-box {
         padding: 2rem;
         height: 22rem;
-        
+        border-radius:20px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -82,8 +82,6 @@
     &:after {
         content: '';
         position: absolute;
-        width: 103%;
-        height: 101%;
         top: 1rem;
         right: 0;
         z-index: -1;
