@@ -26,7 +26,7 @@ const MainBody = React.forwardRef(
           strings={['',
             'Machine Learning Enthusiast',
             'Full Stack Developer',
-            'Open Source',
+            'Open Source Contributor',
         ]}
           typeSpeed={60}
           backSpeed={40}

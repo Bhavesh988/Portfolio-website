@@ -10,7 +10,7 @@ const AboutMe = () => {
       <h2 className="headin-2 text-center">About Me</h2>
           <div className="myself-box">
             <div className="myself-cloud">
-            <p className="lead text-center">I am currently in my third year of Computer Engineering at PVG's COET and will graduate in 2022. I am a quick learner, passionate about what I do and focused. Currently, I am learning Deep Learning and looking for internships in Machine Learning and Deep Learning.</p>
+            <p className="lead text-center">I am currently in my final year of Computer Engineering at PVG's COET and will graduate in 2022. I am a quick learner, passionate about what I do and focused. Currently, I am learning Deep Learning and looking for internships in Machine Learning and Deep Learning.</p>
               <p className="text-center">
                 <a
                   className="btn btn-outline-light btn-lg"

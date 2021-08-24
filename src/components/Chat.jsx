@@ -33,7 +33,8 @@ function Chat() {
     "email",
     "linkedin",
     "instagram",
-    "github"
+    "github",
+    "gmail"
   ];
   // const github="[https://www.github.com/Bhavesh988](https://www.github.com/Bhavesh988)";
   const about_response =
