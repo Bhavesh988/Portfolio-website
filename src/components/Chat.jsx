@@ -34,7 +34,8 @@ function Chat() {
     "linkedin",
     "instagram",
     "github",
-    "gmail"
+    "gmail",
+    "leetcode"
   ];
   // const github="[https://www.github.com/Bhavesh988](https://www.github.com/Bhavesh988)";
   const about_response =
@@ -108,6 +109,14 @@ function Chat() {
           target:"_blank"
         });
         return "Hi, Above is the Github Link";
+      }
+      if (msg.includes("leetcode")) {
+        addLinkSnippet({
+          title:"LeetCode",
+          link:"https://leetcode.com/Adolf988/",
+          target:"_blank"
+        });
+        return "Hi, Above is the LeetCode Profile Link";
       }
       if (msg.includes("linkedin")) {
         addLinkSnippet({
