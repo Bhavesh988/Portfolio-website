@@ -2,6 +2,7 @@ import React from "react";
 import Typed from 'react-typed';
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import { Icon } from '@iconify/react';
 
 const MainBody = React.forwardRef(
   ({gradient}, ref) => {
@@ -42,6 +43,9 @@ const MainBody = React.forwardRef(
           </a>
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bhavesh-choudhari-baa15b171/" aria-label="My linkedin">
             <i className="fab fa fa-linkedin  fa-3x socialicons"></i>
+          </a>
+          <a target="_blank" rel="noopener noreferrer" href="https://leetcode.com/Adolf988/" aria-label="My leetcode">
+            <Icon icon="simple-icons:leetcode" className="leetcode" />
           </a>
           </div>
           <a
