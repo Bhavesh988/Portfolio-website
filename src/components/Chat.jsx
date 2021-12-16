@@ -48,7 +48,7 @@ function Chat() {
     "Bhavesh has technical skills such as - \n\n Programming Languages: ​Dart, Python, Java, C++, C\n\nDatabases: Firebase,MYSQL\n\nDomains: ​ Machine Learning, Data Science,Deep Learning\n\nTools: ​ Git,MS Excel,Jupyter Notebook,Google Cloud\n\nLibraries: ​ matplotlib, seaborn, beautiful soup\n\nWeb Developmen​t: HTML, CSS, JavaScript, Django,ReactJs\n\n";
   const contact_response =
     "Hi, Here are Bhavesh's Contacts\n\nMail:\n\n[bhaveshparihyar988@gmail.com](mailto:bhaveshparihyar988@gmail.com)\n\nGithub:\n\n[https://github.com/bhavesh988](https://github.com/bhavesh988)\n\nInstagram:\n\n [https://www.instagram/choudhari_b](https://www.instagram/choudhari_b)\n\nLinkedIn:\n\n [https://www.linkedin.com/in/bhavesh-choudhari-baa15b171](https://www.linkedin.com/in/bhavesh-choudhari-baa15b171)";
-  const resume_response1="Hi, Here is Bhavesh's Resume\n\n[Click Me](https://drive.google.com/file/d/145jCME7Vz67fg_m0ZimuH-v3cKQzOvWr/view?usp=sharing)"
+  const resume_response1="Hi, Here is Bhavesh's Resume\n\n[Click Me](https://drive.google.com/file/d/1m4RYxH1SBHLNWzrw913kpcI3RZ_dJWRu/view?usp=sharing)"
     const buttons = [
     { label: "About", value: about_response },
     { label: "Education", value: education_response },
@@ -81,7 +81,7 @@ function Chat() {
     } else if (search(msg, resume_list) === true) {
       addLinkSnippet({
         title:"Resume Link",
-        link:"https://drive.google.com/file/d/145jCME7Vz67fg_m0ZimuH-v3cKQzOvWr/view?usp=sharing",
+        link:"https://drive.google.com/file/d/1m4RYxH1SBHLNWzrw913kpcI3RZ_dJWRu/view?usp=sharing",
         target:"_blank"
       });
       return resume_response;
