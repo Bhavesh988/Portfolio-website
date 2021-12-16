@@ -14,7 +14,7 @@ const AboutMe = () => {
               <p className="text-center">
                 <a
                   className="btn btn-outline-light btn-lg"
-                  href="https://drive.google.com/file/d/145jCME7Vz67fg_m0ZimuH-v3cKQzOvWr/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1m4RYxH1SBHLNWzrw913kpcI3RZ_dJWRu/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer noopener"
                   role="button"
